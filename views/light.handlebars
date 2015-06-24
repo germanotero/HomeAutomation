@@ -1,20 +1,30 @@
 <h2 class="text-center">Light Switch</h2>
-
-  	<div class="gravatar transitions command"  data-id="8" data-toggleState="">
-					
-					<div class="imgContainer">
-						<img src="images/lamp.png"/>
-					</div>	
-					
-					<canvas height="100%" width="100%" class="circleCanvas circleSvg transitions"></canvas>
-					<div class = "message transitions"></div>
-	</div>   
-  	<div class="gravatar transitions command"  data-id="2" data-command='1'>
-					
-					<div class="imgContainer">
-						<img src="images/coffee.png"/>
-					</div>	
-					
-					<canvas height="100%" width="100%" class="circleCanvas circleSvg transitions"></canvas>
-					<div class = "message transitions"></div>
-	</div>   
+<div class="row">
+  <div class="col-md-4">
+    <div id="up" class="gravatar transitions command" data-id="1" data-command='1'>
+      <div class="imgContainer">
+        <img src="images/persianaUp.png" />
+      </div>
+      <canvas height="100%" width="100%" class="circleCanvas circleSvg transitions"></canvas>
+      <div class="message transitions"></div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div id="stop" class="gravatar transitions command" data-id="2" data-command='2'>
+      <div class="imgContainer">
+        <img src="images/coffee.png" />
+      </div>
+      <canvas height="100%" width="100%" class="circleCanvas circleSvg transitions"></canvas>
+      <div class="message transitions"></div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div id="down" class="gravatar transitions command" data-id="3" data-command='0'>
+      <div class="imgContainer">
+        <img src="images/persianaUp.png" />
+      </div>
+      <canvas height="100%" width="100%" class="circleCanvas circleSvg transitions"></canvas>
+      <div class="message transitions"></div>
+    </div>
+  </div>
+</div>
