@@ -1,0 +1,170 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ger/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/ger/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json Raspberry_Remote@0.2.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/ger/arduino/LightSwitchInNode/RemoteRaspberry',
+6 verbose install   [ 'socket.io', 'express', 'express3-handlebars' ] ]
+7 info preinstall Raspberry_Remote@0.2.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'socket.io@0.9.16', null ]
+10 verbose cache add name=undefined spec="socket.io@0.9.16" args=["socket.io@0.9.16",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'socket.io@0.9.16',
+11 verbose parsed url   path: 'socket.io@0.9.16',
+11 verbose parsed url   href: 'socket.io@0.9.16' }
+12 verbose cache add [ 'express@3.4.8', null ]
+13 verbose cache add name=undefined spec="express@3.4.8" args=["express@3.4.8",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'express@3.4.8',
+14 verbose parsed url   path: 'express@3.4.8',
+14 verbose parsed url   href: 'express@3.4.8' }
+15 verbose cache add [ 'express3-handlebars@0.5.0', null ]
+16 verbose cache add name=undefined spec="express3-handlebars@0.5.0" args=["express3-handlebars@0.5.0",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'express3-handlebars@0.5.0',
+17 verbose parsed url   path: 'express3-handlebars@0.5.0',
+17 verbose parsed url   href: 'express3-handlebars@0.5.0' }
+18 verbose cache add name="socket.io" spec="0.9.16" args=["socket.io","0.9.16"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '0.9.16',
+19 verbose parsed url   path: '0.9.16',
+19 verbose parsed url   href: '0.9.16' }
+20 verbose addNamed [ 'socket.io', '0.9.16' ]
+21 verbose addNamed [ '0.9.16', '0.9.16' ]
+22 verbose cache add name="express" spec="3.4.8" args=["express","3.4.8"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '3.4.8',
+23 verbose parsed url   path: '3.4.8',
+23 verbose parsed url   href: '3.4.8' }
+24 verbose addNamed [ 'express', '3.4.8' ]
+25 verbose addNamed [ '3.4.8', '3.4.8' ]
+26 verbose cache add name="express3-handlebars" spec="0.5.0" args=["express3-handlebars","0.5.0"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '0.5.0',
+27 verbose parsed url   path: '0.5.0',
+27 verbose parsed url   href: '0.5.0' }
+28 verbose addNamed [ 'express3-handlebars', '0.5.0' ]
+29 verbose addNamed [ '0.5.0', '0.5.0' ]
+30 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+31 verbose lock socket.io@0.9.16 /Users/ger/.npm/a7acce22-socket-io-0-9-16.lock
+32 silly lockFile 15cb8528-express-3-4-8 express@3.4.8
+33 verbose lock express@3.4.8 /Users/ger/.npm/15cb8528-express-3-4-8.lock
+34 silly lockFile ebee0df6-express3-handlebars-0-5-0 express3-handlebars@0.5.0
+35 verbose lock express3-handlebars@0.5.0 /Users/ger/.npm/ebee0df6-express3-handlebars-0-5-0.lock
+36 verbose request where is /socket.io
+37 verbose request registry http://npm.opower.it/
+38 verbose request id a1e36a1ef01ee045
+39 verbose url raw /socket.io
+40 verbose url resolving [ 'http://npm.opower.it/', './socket.io' ]
+41 verbose url resolved http://npm.opower.it/socket.io
+42 verbose request where is http://npm.opower.it/socket.io
+43 info trying registry request attempt 1 at 08:37:19
+44 http GET http://npm.opower.it/socket.io
+45 verbose request where is /express
+46 verbose request registry http://npm.opower.it/
+47 verbose url raw /express
+48 verbose url resolving [ 'http://npm.opower.it/', './express' ]
+49 verbose url resolved http://npm.opower.it/express
+50 verbose request where is http://npm.opower.it/express
+51 info trying registry request attempt 1 at 08:37:19
+52 http GET http://npm.opower.it/express
+53 verbose request where is /express3-handlebars
+54 verbose request registry http://npm.opower.it/
+55 verbose url raw /express3-handlebars
+56 verbose url resolving [ 'http://npm.opower.it/', './express3-handlebars' ]
+57 verbose url resolved http://npm.opower.it/express3-handlebars
+58 verbose request where is http://npm.opower.it/express3-handlebars
+59 info trying registry request attempt 1 at 08:37:19
+60 http GET http://npm.opower.it/express3-handlebars
+61 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+62 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+63 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+64 info trying registry request attempt 2 at 08:37:30
+65 http GET http://npm.opower.it/express3-handlebars
+66 info trying registry request attempt 2 at 08:37:30
+67 http GET http://npm.opower.it/express
+68 info trying registry request attempt 2 at 08:37:30
+69 http GET http://npm.opower.it/socket.io
+70 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+71 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+72 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+73 info trying registry request attempt 3 at 08:38:30
+74 http GET http://npm.opower.it/express
+75 info trying registry request attempt 3 at 08:38:30
+76 http GET http://npm.opower.it/express3-handlebars
+77 info trying registry request attempt 3 at 08:38:30
+78 http GET http://npm.opower.it/socket.io
+79 silly lockFile 15cb8528-express-3-4-8 express@3.4.8
+80 silly lockFile 15cb8528-express-3-4-8 express@3.4.8
+81 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+82 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+83 silly lockFile ebee0df6-express3-handlebars-0-5-0 express3-handlebars@0.5.0
+84 silly lockFile ebee0df6-express3-handlebars-0-5-0 express3-handlebars@0.5.0
+85 error network getaddrinfo ENOTFOUND
+85 error network This is most likely not a problem with npm itself
+85 error network and is related to network connectivity.
+85 error network In most cases you are behind a proxy or have bad network settings.
+85 error network
+85 error network If you are behind a proxy, please make sure that the
+85 error network 'proxy' config is set properly.  See: 'npm help config'
+86 error System Darwin 14.3.0
+87 error command "/Users/ger/.nvm/v0.10.33/bin/node" "/Users/ger/.nvm/v0.10.33/bin/npm" "install"
+88 error cwd /Users/ger/arduino/LightSwitchInNode/RemoteRaspberry
+89 error node -v v0.10.33
+90 error npm -v 1.4.28
+91 error syscall getaddrinfo
+92 error code ENOTFOUND
+93 error errno ENOTFOUND
+94 verbose exit [ 1, true ]

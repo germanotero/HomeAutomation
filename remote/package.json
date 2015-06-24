@@ -1,0 +1,12 @@
+{
+    "name": "Raspberry_Remote",
+    "version": "0.2.0",
+    "author": "Edoardo Odorico",
+    "description": "Web interface for nrf24l01+",
+    "dependencies": {
+        "socket.io": "0.9.16",
+        "express": "3.4.8",
+        "express-handlebars": "0.5.0"
+    },
+    "engines": {     "node": "0.10.x"   }
+}
